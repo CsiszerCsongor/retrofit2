@@ -1,0 +1,16 @@
+Retrofit
+--------
+
+	A java REST kliense
+	A HTTP API-t egy interface-re egyszerűsíti le
+	Lehetővé teszi, hogy az API hívásokat, mint Java metódus hívásokat kezeljük, mi csak az URL-t kell megadjuk és a 
+		request/response típusokat, mint Java osztályokat
+	A network hívás és a JSON/XML parse-olást mint a retrofit végzi el
+	GSON a JSON parsing
+	Lehetőség van szinkron/aszinkron HTTP hívásra a távoli webszerverre
+	Modellezi a REST endpoint-okat mint Java interface-k
+	
+	Retrofit az az osztály, amelyek keresztül az API interface meghívható objektummá válik. 
+	
+	Az URL relatív része az URL-ben van definiálva
+	
